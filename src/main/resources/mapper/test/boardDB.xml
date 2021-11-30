@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.teraenergy.test.mapper.BoardMapper">
+
+	<select id="getBoard"
+		resultType="com.teraenergy.test.model.Board">
+		SELECT *
+		FROM
+		test_tbl
+		ORDER BY
+		seq ASC
+	</select>
+
+</mapper>
