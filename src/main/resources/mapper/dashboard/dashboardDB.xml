@@ -10,7 +10,8 @@
 		FROM
 		test_tbl
 		ORDER BY
-		seq ASC
+		seq DESC 
+		LIMIT 1
 	</select>
 	
 	<!-- 파일 업로드 -->

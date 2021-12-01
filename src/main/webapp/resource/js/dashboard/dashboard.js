@@ -1,18 +1,28 @@
 $(document).ready(function() {
+	get_test_img();
+});
+
+function get_test_img() {
+	
+	
 	$.ajax({
-		url: "boardList", success: function(result) {
-			var html = "";
-			result.forEach(function(item) {
-				html += "<tr> <td><a href = 'view?idx=" + item.idx + "'>" + item.title + "</a>"
-			})
-			$("#listArea").append(html)
-			$('#example').DataTable();
+		url : "/test_img_view",
+		type : "POST", 
+		dataType : 'json', 
+		contentType: 'application/json; charset=utf-8',
+		success : function(data) {
+			
+			var data_json = data;
+			console.log("data 확인 : " + data_json[0].file_path);
+			
+			/*var img_str = "<img src='" + data_json[0].file_path + "'alt='테스트이미지'>";*/
+			var img_str = "<img src='/file_path/557051_BA4THCs4.jpg' alt='테스트이미지'>";
+						
+						
+			$('#dashboard .commute').append(img_str);
 		}
 	});
-	$("#deleteBtn").click(function() {
-		location.href = "write";
-	})
-});
+}
 
 function register_form() {
 	
