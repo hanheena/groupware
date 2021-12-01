@@ -1,0 +1,40 @@
+server: 
+  port: 8080
+  servlet:
+      context-path: /
+      
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+#  configuration:
+#    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*/*.xml
+
+spring: 
+  mvc: 
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+      
+      
+  #mariaDB 1 common
+  datasource-common: 
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    jdbc-url: jdbc:log4jdbc:mariadb://teraenergy.iptime.org:13306/teware?serverTimezone=UTC#no-log-set#spring.datasource-common.driver-class-name=org.mariadb.jdbc.Driver
+    username: teware
+    password: 2021
+    maximum-pool-size: 10
+    minimum-idle: 5
+
+  
+  #mariaDB 2 local1
+  datasource-local1: 
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    jdbc-url: jdbc:log4jdbc:mariadb://teraenergy.iptime.org:13306/nhh?serverTimezone=UTC#no-log-set#spring.datasource-local1.driver-class-name=org.mariadb.jdbc.Driver
+    username: nhh
+    password: nhh2021
+    maximum-pool-size: 10
+    minimum-idle: 5
+
+

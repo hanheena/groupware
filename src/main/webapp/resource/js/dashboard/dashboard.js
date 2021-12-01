@@ -13,3 +13,12 @@ $(document).ready(function() {
 		location.href = "write";
 	})
 });
+
+function register_form() {
+	
+	var fime_name = $("input[name=test_img]").val();
+	
+	console.log("fime_name 확인 : " + fime_name);
+
+	$("form#test_img_insert").submit();
+}

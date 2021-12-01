@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "spring.local1.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.local1.datasource.password'"
+  },
+  {
+    "name": "spring.local1.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.local1.datasource.username'"
+  },
+  {
+    "name": "spring.local1.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.local1.datasource.url'"
+  },
+  {
+    "name": "spring.spring",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.spring'"
+  },
+  {
+    "name": "spring.datasource-common.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource-common.driver-class-name'"
+  }
+]}

@@ -27,7 +27,15 @@
       <!-- session_1 -->
       <session class="session_1">
         <!-- session 1 현재 시간 -->
-        <div class="now_time"></div>
+        <div class="now_time">
+          <h1>파일 첨부 및 개인 pc 경로 지정 예시</h1>
+          <div class="file_area">
+            <form id="test_img_insert" action="test_img_insert" method="POST" enctype="multipart/form-data" accept-charset="uft-8">
+             <input name="test_img" class="test_img_input" value="파일 선택" type="file" autocomplete=off>
+              <button type="button" class="register_btn" onclick="register_form(); return false;">파일 등록</button>
+           </form>
+          </div>
+        </div>
 
         <!-- session 1 출퇴근 -->
         <div class="commute"></div>
