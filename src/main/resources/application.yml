@@ -17,7 +17,6 @@ spring:
       suffix: .jsp
       
       
-      
   #mariaDB 1 common
   datasource-common: 
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy

@@ -13,9 +13,15 @@ function get_test_img() {
 		success : function(data) {
 			
 			var data_json = data;
-			console.log("data 확인 : " + data_json[0].file_path);
+		
 			
-			var img_str = "<img src='/file_path/557051_BA4THCs4.jpg' alt='테스트이미지'>";
+			var file_path =  data_json[0].file_path;
+			
+			var file_path_replace = file_path.replace(/\\/ig, "/").replace("C:", "");
+			
+				console.log("data 확인 : " + file_path_replace);
+				
+			var img_str = "<img src='"+file_path_replace+"' alt='테스트이미지'>";
 						
 						
 			$('#dashboard .commute').append(img_str);
