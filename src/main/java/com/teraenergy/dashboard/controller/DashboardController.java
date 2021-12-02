@@ -32,35 +32,45 @@ public class DashboardController {
 	public String dashboard() {
 		return "/dashboard/dashboard";
 	}
-
-	@RequestMapping("/test_img_view")
-	public @ResponseBody List<Object> test_img_view() throws Exception {
-
-		List<Object> getData = s.getBoard();
-
-		return getData;
-	}
-
-	// test img insert
-	@SuppressWarnings("unchecked")
-	@RequestMapping(value = "test_img_insert", headers = "Accept=*/*")
-	public String test_img_insert(@RequestParam (name="test_img") MultipartFile test_img) throws Exception {
-
-		String filePath = "C:\\file_path";
-
-		String test_img_filePath = filePath + "\\" + test_img.getOriginalFilename();
-
-		if (!test_img.getOriginalFilename().isEmpty()) {
-			test_img.transferTo(new File(filePath, test_img.getOriginalFilename()));
-		}
+	
+	/* 캘린더 정보 select */
+	@RequestMapping(value = "/dashboard/ajax_get_calender", method = RequestMethod.GET)
+	public @ResponseBody List<Object> get_calender() throws Exception {
 		
-//		map에 저장
-		Map<String, Object> map = new HashMap<>();
-
-		map.put("filePath", test_img_filePath);
-
-		s.insert_file(map);
-
-		return "redirect:/dashboard";
+		List<Object> getData = s.getCalender();
+		
+		return getData; 
 	}
+
+	/* 이미지 첨부 예시 소스
+	 * @RequestMapping("/test_img_view") public @ResponseBody List<Object>
+	 * test_img_view() throws Exception {
+	 * 
+	 * List<Object> getData = s.getBoard();
+	 * 
+	 * return getData; }
+	 */
+
+	// 이미지 첨부 예시 소스
+	// @SuppressWarnings("unchecked")
+	// @RequestMapping(value = "test_img_insert", headers = "Accept=*/*")
+	/*
+	 * public String test_img_insert(@RequestParam (name="test_img") MultipartFile
+	 * test_img) throws Exception {
+	 * 
+	 * String filePath = "C:\\file_path";
+	 * 
+	 * String test_img_filePath = filePath + "\\" + test_img.getOriginalFilename();
+	 * 
+	 * if (!test_img.getOriginalFilename().isEmpty()) { test_img.transferTo(new
+	 * File(filePath, test_img.getOriginalFilename())); }
+	 * 
+	 * // map에 저장 Map<String, Object> map = new HashMap<>();
+	 * 
+	 * map.put("filePath", test_img_filePath);
+	 * 
+	 * s.insert_file(map);
+	 * 
+	 * return "redirect:/dashboard"; }
+	 */
 }

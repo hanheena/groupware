@@ -3,7 +3,7 @@
 <html>
 
 <head>
-  <title>테스트 게시판 CRUD</title>
+  <title>그룹웨어</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,13 +27,13 @@
       <session class="session_1">
         <!-- session 1 현재 시간 -->
         <div class="now_time">
-          <h1>파일 첨부 및 개인 pc 경로 지정 예시</h1>
+          <!-- <h1>파일 첨부 및 개인 pc 경로 지정 예시</h1>
           <div class="file_area">
             <form id="test_img_insert" action="test_img_insert" method="POST" enctype="multipart/form-data" accept-charset="uft-8">
              <input name="test_img" class="test_img_input" value="파일 선택" type="file" autocomplete=off>
               <button type="button" class="register_btn" onclick="register_form(); return false;">파일 등록</button>
            </form>
-          </div>
+          </div> -->
         </div>
 
         <!-- session 1 출퇴근 -->
@@ -52,11 +52,10 @@
 
       <!-- session_2 -->
       <session class="session_2">
-        <!-- session 2 캘린더 헤더 -->
-        <div class="calendar_header"></div>
-
-        <!-- session 2 캘린더 내용 -->
-        <div class="calendar_content"></div>
+        <!-- session 2 캘린더 -->
+        <div class="calendar_content">
+          <jsp:include page="/WEB-INF/views/dashboard/calender/calender.jsp" />
+        </div>
       </session>
 
       <!-- session_3 -->

@@ -21,15 +21,22 @@ public class DashboardService implements DashboardMapper {
         return dashboardmapper.getBoard();
     }
     
+    /* 캘린더 정보 select */
     @Override
-	public void insert_file(Map<String, Object> m) throws Exception {
-		
-		HashMap<String, Object> map = new HashMap<String, Object>();
-		
-		map.put("m", m);
-		
-		System.out.println("파일 맵 확인 : " +m);
-
-		dashboardmapper.insert_file(m);
-	}
+    public List<Object> getCalender() throws Exception{
+        return dashboardmapper.getCalender();
+    }
+    
+    /* 이미지 첨부 예시 소스 */
+	/*
+	 * @Override public void insert_file(Map<String, Object> m) throws Exception {
+	 * 
+	 * HashMap<String, Object> map = new HashMap<String, Object>();
+	 * 
+	 * map.put("m", m);
+	 * 
+	 * System.out.println("파일 맵 확인 : " +m);
+	 * 
+	 * dashboardmapper.insert_file(m); }
+	 */
 }

@@ -19,7 +19,7 @@ spring:
       
   #mariaDB 1 common
   datasource-common: 
-    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy 
     jdbc-url: jdbc:log4jdbc:mariadb://teraenergy.iptime.org:13306/teware?serverTimezone=UTC#no-log-set#spring.datasource-common.driver-class-name=org.mariadb.jdbc.Driver
     username: teware
     password: 2021

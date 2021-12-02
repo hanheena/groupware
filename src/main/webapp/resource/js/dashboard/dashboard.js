@@ -1,8 +1,9 @@
 $(document).ready(function() {
-	get_test_img();
+	/*이미지 첨부 예시 숨김*/
+	/*get_test_img();*/
 });
 
-function get_test_img() {
+/*function get_test_img() {
 	
 	
 	$.ajax({
@@ -27,7 +28,7 @@ function get_test_img() {
 			$('#dashboard .commute').append(img_str);
 		}
 	});
-}
+}*/
 
 function register_form() {
 	

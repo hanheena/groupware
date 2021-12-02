@@ -10,13 +10,12 @@
 		FROM
 		test_tbl
 		ORDER BY
-		seq DESC 
-		LIMIT 1
+		id DESC 
 	</select>
 	
-	<!-- 파일 업로드 -->
-	<insert id="insert_file">
+	<!-- 이미지 첨부 예시 소스 -->
+	<!-- <insert id="insert_file">
 		INSERT INTO test_tbl(title, content, user, file_path)
 		VALUES ("test_title", "test_content", "aaa", #{filePath})
-	</insert>
+	</insert> -->
 </mapper>
