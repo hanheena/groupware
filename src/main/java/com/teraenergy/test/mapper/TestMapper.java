@@ -1,4 +1,4 @@
-package com.teraenergy.common.mapper;
+package com.teraenergy.test.mapper;
 
 import java.util.List;
 import java.util.Map;

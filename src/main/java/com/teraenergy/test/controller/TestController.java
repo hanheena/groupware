@@ -1,4 +1,4 @@
-package com.teraenergy.common.controller;
+package com.teraenergy.test.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.teraenergy.common.service.TestService;
+import com.teraenergy.test.service.TestService;
 
 
 @Controller
