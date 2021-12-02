@@ -15,7 +15,6 @@ function get_test_img() {
 			var data_json = data;
 			console.log("data 확인 : " + data_json[0].file_path);
 			
-			/*var img_str = "<img src='" + data_json[0].file_path + "'alt='테스트이미지'>";*/
 			var img_str = "<img src='/file_path/557051_BA4THCs4.jpg' alt='테스트이미지'>";
 						
 						

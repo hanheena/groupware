@@ -33,8 +33,8 @@ public class DashboardController {
 		return "/dashboard/dashboard";
 	}
 
-	@RequestMapping("/boardList")
-	public @ResponseBody List<Object> boardList() throws Exception {
+	@RequestMapping("/test_img_view")
+	public @ResponseBody List<Object> test_img_view() throws Exception {
 
 		List<Object> getData = s.getBoard();
 
