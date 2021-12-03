@@ -3,19 +3,19 @@
 
 <mapper
 	namespace="com.teraenergy.dashboard.mapper.DashboardMapper">
-
+	
+	<!-- 테스트 select -->
 	<!-- <select id="getBoard" resultType="camelmap"> -->
 	<select id="getBoard" resultType="java.util.HashMap">
 		SELECT *
 		FROM
 		test_tbl
 		ORDER BY
-		id DESC 
+		id
+		DESC
 	</select>
-	
+
 	<!-- 이미지 첨부 예시 소스 -->
-	<!-- <insert id="insert_file">
-		INSERT INTO test_tbl(title, content, user, file_path)
-		VALUES ("test_title", "test_content", "aaa", #{filePath})
-	</insert> -->
+	<!-- <insert id="insert_file"> INSERT INTO test_tbl(title, content, user, 
+		file_path) VALUES ("test_title", "test_content", "aaa", #{filePath}) </insert> -->
 </mapper>

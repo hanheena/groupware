@@ -16,15 +16,10 @@ public class DashboardService implements DashboardMapper {
     @Autowired
     DashboardMapper dashboardmapper;
 	
+	/* 테스트 select */
     @Override
     public List<Object> getBoard() throws Exception{
         return dashboardmapper.getBoard();
-    }
-    
-    /* 캘린더 정보 select */
-    @Override
-    public List<Object> getCalender() throws Exception{
-        return dashboardmapper.getCalender();
     }
     
     /* 이미지 첨부 예시 소스 */

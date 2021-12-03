@@ -33,14 +33,6 @@ public class DashboardController {
 		return "/dashboard/dashboard";
 	}
 	
-	/* 캘린더 정보 select */
-	@RequestMapping(value = "/dashboard/ajax_get_calender", method = RequestMethod.GET)
-	public @ResponseBody List<Object> get_calender() throws Exception {
-		
-		List<Object> getData = s.getCalender();
-		
-		return getData; 
-	}
 
 	/* 이미지 첨부 예시 소스
 	 * @RequestMapping("/test_img_view") public @ResponseBody List<Object>
