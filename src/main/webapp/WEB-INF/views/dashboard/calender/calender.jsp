@@ -28,19 +28,16 @@
 
                 <div class="col-lg-6">
                     <div class="input-group">
-                        <label class="checkbox-inline"><input class='filter total' type="checkbox" value="전체"
+                        <label class="checkbox-inline"><input class='filter total' name="type_check" type="radio" value="전체"
                             checked>전체</label>
-                        <label class="checkbox-inline"><input class='filter common' type="checkbox" value="공통"
-                                checked>공통</label>
-                        <label class="checkbox-inline"><input class='filter personal' type="checkbox" value="내일정"
-                                checked>내일정</label>
-                        <label class="checkbox-inline"><input class='filter share' type="checkbox" value="공유일정"
-                                checked>공유일정</label>
+                        <label class="checkbox-inline"><input class='filter common' type="radio" name="type_check" value="공통">공통</label>
+                        <label class="checkbox-inline"><input class='filter personal' type="radio" name="type_check" value="내일정">내일정</label>
+                        <label class="checkbox-inline"><input class='filter share' type="radio" name="type_check" value="공유일정">공유일정</label>
                     </div>
                 </div>
 
                 <div class="insert_calender">
-                    <button class="insert_calender_btn" type="button" onclick="alert('일정 등록')">일정 등록</button>
+                    <button class="insert_calender_btn" type="button">일정 등록</button>
                 </div>
             </div>
         </div>
@@ -74,6 +71,13 @@
                                     <label class="col-xs-4" for="edit-name">작성자</label>
                                     <textarea rows="1" class="inputModal" name="edit-name"
                                         id="edit-name"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <label class="col-xs-4" for="edit-target">대상자</label>
+                                    <textarea rows="1" class="inputModal" name="edit-target"
+                                        id="edit-target"></textarea>
                                 </div>
                             </div>
                             <div class="row">

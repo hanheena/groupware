@@ -34,7 +34,7 @@ public class ScheduleController {
 	ScheduleService s;
 
 	/* 캘린더 일정 정보 가져오기 */
-	@RequestMapping(value = "calender/ajax_get_calender", method = RequestMethod.GET)
+	@RequestMapping(value = "/teware/calender/ajax_get_calender", method = RequestMethod.GET)
 	public @ResponseBody List<Object> get_calender() throws Exception {
 		
 		List<Object> getData = s.get_calender();
@@ -43,7 +43,7 @@ public class ScheduleController {
 	}
 	
 	/* 일정 등록 */
-	@RequestMapping("calender/ajax_insert_schedule")
+	@RequestMapping("/teware/calender/ajax_insert_schedule")
 	public String insert_schedule( @RequestParam Map<String, Object> eventData) 
 			throws Exception {
 		
@@ -77,6 +77,7 @@ public class ScheduleController {
 		map.put("backgroundColor", eventData.get("eventData[backgroundColor]"));
 		map.put("textColor", eventData.get("eventData[textColor]"));
 		map.put("all_day", all_day_num);
+		map.put("target_user", eventData.get("eventData[target_user]"));
 		
 		System.out.println("파라미터 확인" + eventData);
 		System.out.println("파라미터 확인 - 맵 " + map);
@@ -87,7 +88,7 @@ public class ScheduleController {
 	}
 	
 	/* 일정 수정 */
-	@RequestMapping("calender/ajax_update_schedule")
+	@RequestMapping("/teware/calender/ajax_update_schedule")
 	public String update_schedule( @RequestParam Map<String, Object> eventData) 
 			throws Exception {
 		
@@ -123,6 +124,7 @@ public class ScheduleController {
 		map.put("textColor", eventData.get("eventData[textColor]"));
 		map.put("all_day", all_day_num);
 		map.put("id",  eventData.get("eventData[id]"));
+		map.put("target_user", eventData.get("eventData[target_user]"));
 		
 		System.out.println("업데이트 파라미터 확인" + eventData);
 		System.out.println("업데이트 파라미터 확인 - 맵 " + map);
@@ -133,7 +135,7 @@ public class ScheduleController {
 	}
 	
 	/* 일정 삭제 */
-	@RequestMapping(value = "calender/ajax_delete_schedule", method = RequestMethod.POST)
+	@RequestMapping(value = "/teware/calender/ajax_delete_schedule", method = RequestMethod.POST)
 	public String delete_schedule(@RequestBody String check_id) throws Exception {
 		
 		String check_id_str = check_id.replace("check_id=", ""); 

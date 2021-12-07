@@ -24,11 +24,11 @@ import com.teraenergy.dashboard.service.DashboardService;
 //@RestController
 @Controller
 public class DashboardController {
-
+	
 	@Autowired
 	DashboardService s;
 
-	@RequestMapping(value = "/dashboard", method = RequestMethod.GET)
+	@RequestMapping(value = "/teware/dashboard", method = RequestMethod.GET)
 	public String dashboard() {
 		return "/dashboard/dashboard";
 	}

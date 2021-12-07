@@ -25,13 +25,13 @@
 		title, start, end, 
 		description, event_type, 
 		write_user, backgroundColor, 
-		textColor, all_day
+		textColor, all_day, target_user
 	    )
 	    VALUES (
 	    #{m.title}, #{m.start}, #{m.end}, 
 	    #{m.description}, #{m.event_type},
 	    #{m.write_user}, #{m.backgroundColor}, 
-	    #{m.textColor}, #{m.all_day}
+	    #{m.textColor}, #{m.all_day}, #{m.target_user}
 	    )
 	</insert>
 	
@@ -41,7 +41,7 @@
 		title = #{m.title}, start = #{m.start}, end = #{m.end}, 
 		description = #{m.description}, event_type = #{m.event_type}, 
 		write_user = #{m.write_user}, backgroundColor =  #{m.backgroundColor}, 
-		textColor = #{m.textColor}, all_day = #{m.all_day} 
+		textColor = #{m.textColor}, all_day = #{m.all_day}, target_user = #{m.target_user}
 		WHERE id = #{m.id}
 	</update>
 	

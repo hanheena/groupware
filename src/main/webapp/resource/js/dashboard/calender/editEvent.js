@@ -33,6 +33,8 @@ var editEvent = function (event, element, view) {
     editType.val(event.event_type);
     editDesc.val(event.description);
     editColor.val(event.backgroundColor).css('color', event.backgroundColor);
+    editTarget.val(event.target_user);
+    editName.val(event.write_user);
 
     addBtnContainer.hide();
     modifyBtnContainer.show();
@@ -78,6 +80,8 @@ var editEvent = function (event, element, view) {
         event.event_type = editType.val();
         event.backgroundColor = editColor.val();
         event.description = editDesc.val();
+        event.target_user = editTarget.val();
+        event.write_user = editName.val();
         
         var eventData = {
 			title: event.title,
@@ -87,7 +91,9 @@ var editEvent = function (event, element, view) {
 			event_type: event.event_type,
 			backgroundColor: event.backgroundColor,
 			all_day: event.all_day,
-			id: event.id
+			id: event.id, 
+			target_user: event.target_user,
+			write_user: event.write_user
 		};
 
         $("#calendar").fullCalendar('updateEvent', event);
@@ -95,7 +101,7 @@ var editEvent = function (event, element, view) {
         //일정 업데이트
         $.ajax({
             type: "POST",
-            url: "/calender/ajax_update_schedule",
+            url: "/teware/calender/ajax_update_schedule",
             data: {
             	"eventData": eventData
             },
@@ -119,7 +125,7 @@ $('#deleteEvent').on('click', function (event) {
     //삭제시
     $.ajax({
         type: "POST",
-            url: "/calender/ajax_delete_schedule",
+            url: "/teware/calender/ajax_delete_schedule",
         data: {
             "check_id": $(this).data('id')
         },

@@ -109,7 +109,7 @@ var calendar = $('#calendar').fullCalendar({
 	events: function(start, end, timezone, callback) {
 		$.ajax({
 			type: "get",
-			url: "/calender/ajax_get_calender",
+			url: "/teware/calender/ajax_get_calender",
 			data: {
 				// 화면이 바뀌면 Date 객체인 start, end 가 들어옴
 				//startDate : moment(start).format('YYYY-MM-DD'),
@@ -224,6 +224,7 @@ var calendar = $('#calendar').fullCalendar({
 			startDate = moment(startDate).format('YYYY-MM-DD HH:mm');
 			endDate = moment(endDate).format('YYYY-MM-DD HH:mm');
 		}
+		
 
 		//날짜 클릭시 카테고리 선택메뉴
 		var $contextMenu = $("#contextMenu");
@@ -238,14 +239,14 @@ var calendar = $('#calendar').fullCalendar({
 			$contextMenu.removeClass("contextOpened");
 			$contextMenu.hide();
 		});
-
+	
+	
 		$('body').on('click', function() {
 			$contextMenu.removeClass("contextOpened");
 			$contextMenu.hide();
 		});
 
 	},
-
 	//이벤트 클릭시 수정이벤트
 	eventClick: function(event, jsEvent, view) {
 		editEvent(event);
@@ -296,14 +297,9 @@ function getDisplayEventDate(event) {
 function filtering(event) {
 	var show_type = true;
 
-	var type = $('input:checkbox.filter:checked').map(function() {
+	var type = $('input:radio.filter:checked').map(function() {
 		return $(this).val();
 	}).get();
-
-	if ($('input:checkbox.filter.total').is(':checked')) {
-		/*console.log("전체 체크");*/
-		$('input:checkbox.filter').prop("checked", true);
-	}
 
 	if (type && type.length > 0) {
 		if (type[0] == "전체") {

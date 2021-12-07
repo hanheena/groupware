@@ -3,6 +3,7 @@ var eventModal = $('#eventModal');
 var modalTitle = $('.modal-title'); // 일정 창 타이틀 (디비 연동 안 함)
 var editAllDay = $('#edit-allDay'); // 종일 구분
 var editName = $('#edit-name'); // 작성자명
+var editTarget = $('#edit-target'); // 대상자명
 var editTitle = $('#edit-title'); // 일정 명
 var editStart = $('#edit-start'); // 시작 날짜
 var editEnd = $('#edit-end'); // 종료 날짜
@@ -17,6 +18,23 @@ var modifyBtnContainer = $('.modalBtnContainer-modifyEvent');
 /* ****************
  *  새로운 일정 생성
  * ************** */
+
+/*일정 등록 버튼 추가*/
+$('.insert_calender_btn').unbind('click');
+$('.insert_calender_btn').on('click', function(e) {
+
+	e.preventDefault();
+
+	console.log("일정 버튼 함수");
+
+	var today = moment();
+
+	var startDate = moment(today).format('YYYY-MM-DD HH:mm');
+	var endDate = moment(today).format('YYYY-MM-DD HH:mm');
+
+	newEvent(startDate, endDate, $(this).html());
+});
+
 var newEvent = function(start, end, eventType) {
 
 	$("#contextMenu").hide(); //메뉴 숨김
@@ -28,6 +46,7 @@ var newEvent = function(start, end, eventType) {
 	editEnd.val(end);
 	editDesc.val('');
 	editName.val('');
+	editTarget.val('');
 
 	addBtnContainer.show();
 	modifyBtnContainer.hide();
@@ -46,7 +65,8 @@ var newEvent = function(start, end, eventType) {
 			write_user: editName.val(),
 			backgroundColor: editColor.val(),
 			textColor: '#ffffff',
-			all_day: false
+			all_day: false,
+			target_user: editTarget.val()
 		};
 
 		if (eventData.start > eventData.end) {
@@ -62,7 +82,7 @@ var newEvent = function(start, end, eventType) {
 		var realEndDay;
 
 		if (editAllDay.is(':checked')) {
-			
+
 			console.log();
 			eventData.start = moment(eventData.start).format('YYYY-MM-DD 00:00');
 			//render시 날짜표기수정
@@ -79,13 +99,13 @@ var newEvent = function(start, end, eventType) {
 		eventModal.find('input, textarea').val('');
 		editAllDay.prop('checked', false);
 		eventModal.modal('hide');
-		
+
 		console.log("eventData 확인 : " + JSON.stringify(eventData));
 
 		//새로운 일정 저장
 		$.ajax({
 			type: "POST",
-			url: "/calender/ajax_insert_schedule",
+			url: "/teware/calender/ajax_insert_schedule",
 			data: {
 				"eventData": eventData
 			},
