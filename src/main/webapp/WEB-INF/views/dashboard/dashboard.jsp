@@ -11,6 +11,9 @@
   <jsp:include page="/WEB-INF/views/common/include/link.jsp" />
 
   <link rel="stylesheet" type="text/css" href="/resource/css/dashboard/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="/resource/css/dashboard/api/api.css">
+  <link rel="stylesheet" type="text/css" href="/resource/css/dashboard/notify/notify.css">
+
   <script type="text/javascript" src="/resource/js/dashboard/dashboard.js"></script>
 </head>
 
@@ -27,27 +30,30 @@
       <session class="session_1">
         <!-- session 1 현재 시간 -->
         <div class="now_time">
-          <!-- <h1>파일 첨부 및 개인 pc 경로 지정 예시</h1>
-          <div class="file_area">
-            <form id="test_img_insert" action="test_img_insert" method="POST" enctype="multipart/form-data" accept-charset="uft-8">
-             <input name="test_img" class="test_img_input" value="파일 선택" type="file" autocomplete=off>
-              <button type="button" class="register_btn" onclick="register_form(); return false;">파일 등록</button>
-           </form>
-          </div> -->
+          <jsp:include page="/WEB-INF/views/dashboard/api/now_time.jsp" />
         </div>
 
         <!-- session 1 출퇴근 -->
         <div class="commute">
+          <jsp:include page="/WEB-INF/views/dashboard/api/commute.jsp" />
         </div>
 
         <!-- session 1 날씨 -->
-        <div class="weather"></div>
+        <div class="weather">
+          <jsp:include page="/WEB-INF/views/dashboard/api/weather.jsp" />
+        </div>
 
         <!-- session 1 실내 온도 -->
-        <div class="indoor_temp"></div>
+        <div class="indoor_temp">
+          <jsp:include page="/WEB-INF/views/dashboard/api/indoor_temp.jsp" />
+        </div>
 
         <!-- session 1 결재 버튼 -->
-        <div class="work_btn"></div>
+        <div class="work_btn">
+          <button onclick="alert('업무 작성')">업무작성</button>
+          <button onclick="alert('결제 작성')">결제작성</button>
+          <button onclick="alert('휴가 신청')">휴가신청</button>
+        </div>
       </session>
 
       <!-- session_2 -->
@@ -61,10 +67,15 @@
       <!-- session_3 -->
       <session class="session_3">
         <!-- session 3 알람 헤더 -->
-        <div class="noti_header"></div>
+        <div class="noti_header">
+          <p>알람 인벤토리</p>
+          <button>더보기</button>
+        </div>
 
         <!-- session 3 알람 내용 -->
-        <div class="noti_content"></div>
+        <div class="noti_content">
+          <jsp:include page="/WEB-INF/views/dashboard/notify/notify.jsp" />
+        </div>
       </session>
     </div>
 

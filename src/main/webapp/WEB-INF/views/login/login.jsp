@@ -1,8 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!-- <%@ include file="/WEB-INF/views/include/header.jsp"%> -->
-<link rel="stylesheet" media="screen, print" href="${root}/resources/css/signin/signin.css"> </link>
-    
+<link rel="stylesheet" media="screen, print" href="/resource/css/common/login/login.css"> </link>
 
+<html>
+<head>
+  <title>그룹웨어</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 공통 컴포넌트 인클루드 -->
+  <jsp:include page="/WEB-INF/views/common/include/link.jsp" />
+
+  <link rel="stylesheet" type="text/css" href="/resource/css/dashboard/dashboard.css">
+  <script type="text/javascript" src="/resource/js/dashboard/dashboard.js"></script>
+</head>
+
+<body id="login">
+  
 <main class="form-signin">
   <form id="loginform" method="post" action="">
     <!-- <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
@@ -27,9 +40,8 @@
     
   </form>
 </main>
+</body>
 
-
-<!-- <%@ include file="/WEB-INF/views/include/footer.jsp"%> -->
 <script type="text/javascript">
 	$(document).ready(function() {
 		$("#loginBtn").click(function() {
@@ -46,3 +58,4 @@
 
 	});
 </script>
+</html>

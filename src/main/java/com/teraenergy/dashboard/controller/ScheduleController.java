@@ -69,22 +69,22 @@ public class ScheduleController {
 		}
 		
 		map.put("title", eventData.get("eventData[title]"));
+		map.put("description", eventData.get("eventData[description]"));
+		map.put("write_user", eventData.get("eventData[write_user]"));
+		map.put("target_user", eventData.get("eventData[target_user]"));
 		map.put("start", eventData.get("eventData[start]"));
 		map.put("end", eventData.get("eventData[end]"));
-		map.put("description", eventData.get("eventData[description]"));
 		map.put("event_type", event_type_num);
-		map.put("write_user", eventData.get("eventData[write_user]"));
 		map.put("backgroundColor", eventData.get("eventData[backgroundColor]"));
-		map.put("textColor", eventData.get("eventData[textColor]"));
 		map.put("all_day", all_day_num);
-		map.put("target_user", eventData.get("eventData[target_user]"));
+		
 		
 		System.out.println("파라미터 확인" + eventData);
 		System.out.println("파라미터 확인 - 맵 " + map);
 		
 		s.insert_schedule(map);
 		
-		return "redirect:/dashboard";
+		return "redirect:/teware/dashboard";
 	}
 	
 	/* 일정 수정 */
@@ -115,27 +115,26 @@ public class ScheduleController {
 		}
 		
 		map.put("title", eventData.get("eventData[title]"));
+		map.put("description", eventData.get("eventData[description]"));
+		map.put("write_user", eventData.get("eventData[write_user]"));
+		map.put("target_user", eventData.get("eventData[target_user]"));
 		map.put("start", eventData.get("eventData[start]"));
 		map.put("end", eventData.get("eventData[end]"));
-		map.put("description", eventData.get("eventData[description]"));
 		map.put("event_type", event_type_num);
-		map.put("write_user", eventData.get("eventData[write_user]"));
 		map.put("backgroundColor", eventData.get("eventData[backgroundColor]"));
-		map.put("textColor", eventData.get("eventData[textColor]"));
 		map.put("all_day", all_day_num);
-		map.put("id",  eventData.get("eventData[id]"));
-		map.put("target_user", eventData.get("eventData[target_user]"));
+		map.put("id", id_num);
 		
 		System.out.println("업데이트 파라미터 확인" + eventData);
 		System.out.println("업데이트 파라미터 확인 - 맵 " + map);
 		
 		s.update_schedule(map);
 		
-		return "redirect:/dashboard";
+		return "redirect:/teware/dashboard";
 	}
 	
 	/* 일정 삭제 */
-	@RequestMapping(value = "/teware/calender/ajax_delete_schedule", method = RequestMethod.POST)
+	@RequestMapping("/teware/calender/ajax_delete_schedule")
 	public String delete_schedule(@RequestBody String check_id) throws Exception {
 		
 		String check_id_str = check_id.replace("check_id=", ""); 
@@ -146,7 +145,7 @@ public class ScheduleController {
 		
 		s.delete_schedule(id_num);
 
-		return "redirect:/dashboard";
+		return "redirect:/teware/dashboard";
 
 	}
 }

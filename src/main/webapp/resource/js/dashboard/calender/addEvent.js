@@ -64,7 +64,6 @@ var newEvent = function(start, end, eventType) {
 			event_type: editType.val(),
 			write_user: editName.val(),
 			backgroundColor: editColor.val(),
-			textColor: '#ffffff',
 			all_day: false,
 			target_user: editTarget.val()
 		};
@@ -82,13 +81,12 @@ var newEvent = function(start, end, eventType) {
 		var realEndDay;
 
 		if (editAllDay.is(':checked')) {
-
-			console.log();
+			
 			eventData.start = moment(eventData.start).format('YYYY-MM-DD 00:00');
 			//render시 날짜표기수정
-			eventData.end = moment(eventData.end).add(1, 'days').format('YYYY-MM-DD 00:00');
+			eventData.end = moment(eventData.end).add(1, 'days').format('YYYY-MM-DD 23:59');
 			//DB에 넣을때(선택)
-			realEndDay = moment(eventData.end).format('YYYY-MM-DD 00:00');
+			realEndDay = moment(eventData.end).format('YYYY-MM-DD 23:59');
 
 			eventData.all_day = true;
 		} else {

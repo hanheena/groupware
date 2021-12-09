@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.teraenergy.dashboard.service.DashboardService;
 
@@ -29,8 +32,16 @@ public class DashboardController {
 	DashboardService s;
 
 	@RequestMapping(value = "/teware/dashboard", method = RequestMethod.GET)
-	public String dashboard() {
-		return "/dashboard/dashboard";
+	public ModelAndView dashboard(HttpSession session) {
+		
+		ModelAndView mav = new ModelAndView();
+		
+		mav.addObject("user_id", session.getAttribute("user_id"));
+		mav.addObject("user_name", session.getAttribute("user_name"));
+		
+		mav.setViewName("/dashboard/dashboard");
+
+		return mav;
 	}
 	
 

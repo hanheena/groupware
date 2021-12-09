@@ -1,0 +1,23 @@
+#dashboard .session_1 .now_time {
+	background-color: #ffffff;
+	height: 18%;
+	margin-bottom: 2%;
+}
+
+#dashboard .session_1 .commute {
+	background-color: #ffffff;
+	height: 18%;
+	margin-bottom: 2%;
+}
+
+#dashboard .session_1 .weather {
+	background-color: #ffffff;
+	height: 18%;
+	margin-bottom: 2%;
+}
+
+#dashboard .session_1 .indoor_temp {
+	background-color: #ffffff;
+	height: 23%;
+	margin-bottom: 2%;
+}

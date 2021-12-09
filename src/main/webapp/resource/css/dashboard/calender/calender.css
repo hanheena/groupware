@@ -1,5 +1,6 @@
 .container {
     width: 100% !important;
+    max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
 }
@@ -313,10 +314,14 @@ select.filter {
 }
 
 .insert_calender .insert_calender_btn {
-	width: 15%;
-	margin-left: 85%;
+	width: 20%;
+	margin-left: 80%;
 }
 
 .modal-open {
 	padding-right: 0 !important;
+}
+
+.panel .panel-default {
+	border: 1px solid #00000054;
 }

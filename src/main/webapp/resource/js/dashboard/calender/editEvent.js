@@ -2,11 +2,8 @@
  *  일정 편집
  * ************** */
 var editEvent = function (event, element, view) {
-
-    var select_id = $('#deleteEvent').data('id', event.id); //클릭한 이벤트 ID
-    
-    /*console.log("선택 아이디 확인 : " + JSON.stringify(select_id));
-    console.log("실제 아이디 확인 : " + JSON.stringify(event.id));*/
+	
+	var select_id = $('#deleteEvent').data('id', event.id); //클릭한 이벤트 ID
     
     $('.popover.fade.top').remove();
     $(element).popover("hide");
@@ -26,7 +23,7 @@ var editEvent = function (event, element, view) {
     } else {
         editEnd.val(event.end.format('YYYY-MM-DD HH:mm'));
     }
-
+	
     modalTitle.html('일정 수정');
     editTitle.val(event.title);
     editStart.val(event.start.format('YYYY-MM-DD HH:mm'));
@@ -39,7 +36,10 @@ var editEvent = function (event, element, view) {
     addBtnContainer.hide();
     modifyBtnContainer.show();
     eventModal.modal('show');
-
+    
+    console.log("editType : " + JSON.stringify(editType));
+    console.log("event.event_type : " + JSON.stringify(event.event_type));
+    
     //업데이트 버튼 클릭시
     $('#updateEvent').unbind();
     $('#updateEvent').on('click', function () {
@@ -61,9 +61,9 @@ var editEvent = function (event, element, view) {
 
         if (editAllDay.is(':checked')) {
             statusAllDay = true;
-            startDate = moment(editStart.val()).format('YYYY-MM-DD');
-            endDate = moment(editEnd.val()).format('YYYY-MM-DD');
-            displayDate = moment(editEnd.val()).add(1, 'days').format('YYYY-MM-DD');
+            startDate = moment(editStart.val()).format('YYYY-MM-DD 00:00');
+            endDate = moment(editEnd.val()).format('YYYY-MM-DD 23:59');
+            displayDate = moment(editEnd.val()).add(1, 'days').format('YYYY-MM-DD 23:59');
         } else {
             statusAllDay = false;
             startDate = editStart.val();
@@ -120,7 +120,7 @@ $('#deleteEvent').on('click', function (event) {
     $("#calendar").fullCalendar('removeEvents', $(this).data('id'));
     eventModal.modal('hide');
     
-     console.log("삭제 아이디 확인 : " + JSON.stringify($(this).data('id')));
+    console.log("머냐고 : " + JSON.stringify($(this).data('id')));
 
     //삭제시
     $.ajax({

@@ -7,46 +7,51 @@
 	<!-- 캘린더 일정 정보 가져오기 -->
 	<select id="get_calender" resultType="java.util.HashMap">
 		SELECT
-		id, title, description, write_user, target_user, write_date,
+		id, title, description, write_user, target_user, 
 		IF(all_day, 'true', 'false') AS all_day,
-		start, end,
+		<!-- start, date_format(start_time, '%H:%i') AS start_time, end, date_format(end_time, '%H:%i') AS end_time,  -->
 		(CASE WHEN event_type = 1 THEN '공통'
 		WHEN event_type = 2 THEN '내일정'
 		WHEN event_type = 3 THEN '공유일정'
 		ELSE 'null' END) AS 'event_type',
-		file_path, backgroundColor, textColor
-		FROM test_tbl
+		file_path, backgroundColor, textColor, test_start_date AS start, test_end_date AS end
+		FROM schedule_tbl
 		ORDER BY id DESC
 	</select>
 	
 	<!-- 일정 등록 -->
 	<insert id="insert_schedule">
-		INSERT INTO test_tbl(
-		title, start, end, 
-		description, event_type, 
-		write_user, backgroundColor, 
-		textColor, all_day, target_user
+		INSERT INTO schedule_tbl(
+		title, description, write_user, target_user, 
+		test_start_date, test_end_date, 
+		event_type, backgroundColor, all_day
 	    )
 	    VALUES (
-	    #{m.title}, #{m.start}, #{m.end}, 
-	    #{m.description}, #{m.event_type},
-	    #{m.write_user}, #{m.backgroundColor}, 
-	    #{m.textColor}, #{m.all_day}, #{m.target_user}
+	    #{m.title}, #{m.description}, #{m.write_user}, #{m.target_user}, 
+	    #{m.start}, #{m.end}, 
+	    #{m.event_type}, #{m.backgroundColor}, #{m.all_day}
 	    )
 	</insert>
 	
 	<!-- 일정 수정 -->
 	<update id="update_schedule">
-		UPDATE test_tbl SET
-		title = #{m.title}, start = #{m.start}, end = #{m.end}, 
-		description = #{m.description}, event_type = #{m.event_type}, 
-		write_user = #{m.write_user}, backgroundColor =  #{m.backgroundColor}, 
-		textColor = #{m.textColor}, all_day = #{m.all_day}, target_user = #{m.target_user}
+		UPDATE schedule_tbl SET
+		title = #{m.title}, 
+		description = #{m.description},
+		write_user = #{m.write_user}, 
+		target_user = #{m.target_user}, 
+		test_start_date = #{m.start}, 
+		<!-- start_time = #{m.start_time},  -->
+		test_end_date = #{m.end}, 
+		<!-- end_time = #{m.end_time},  -->
+		event_type = #{m.event_type}, 
+		backgroundColor =  #{m.backgroundColor}, 
+		all_day = #{m.all_day} 
 		WHERE id = #{m.id}
 	</update>
 	
 	<!-- 일정 삭제 -->
 	<delete id="delete_schedule">
-		DELETE FROM test_tbl WHERE id = #{check_id};
+		DELETE FROM schedule_tbl WHERE id = #{check_id};
 	</delete>
 </mapper>

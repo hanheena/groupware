@@ -14,8 +14,8 @@
     <div>
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a href="#" class="nav-link px-2 link-secondary">관리설정</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">홍길동</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">로그아웃</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">${user_name}(${user_id})</a></li>
+        <li><a href="/teware/logout" class="nav-link px-2 link-dark" onclick="confirm('로그아웃 하시겠습니까?')">로그아웃</a></li>
       </ul>
     </div>
     <div>

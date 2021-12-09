@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	/*이미지 첨부 예시 숨김*/
-	/*get_test_img();*/
 });
 
 /*function get_test_img() {
