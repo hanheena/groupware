@@ -18,9 +18,17 @@ spring:
       
       
   #mariaDB 1 common
-  datasource-common: 
-    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy 
-    jdbc-url: jdbc:log4jdbc:mariadb://teraenergy.iptime.org:13306/teware?serverTimezone=UTC#no-log-set#spring.datasource-common.driver-class-name=org.mariadb.jdbc.Driver
+#  datasource-common: 
+#    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy 
+#    jdbc-url: jdbc:log4jdbc:mariadb://teraenergy.iptime.org:13306/teware?serverTimezone=UTC#no-log-set#spring.datasource-common.driver-class-name=org.mariadb.jdbc.Driver
+#    username: teware
+#    password: 2021
+#    maximum-pool-size: 10
+#    minimum-idle: 5
+spring.datasource.hikari.common:
+    driver-class-name: org.mariadb.jdbc.Driver
+    platform: mariadb
+    jdbc-url: jdbc:mariadb://teraenergy.iptime.org:13306/teware?serverTimezone=UTC&characterEncoding=UTF-8
     username: teware
     password: 2021
     maximum-pool-size: 10
@@ -28,9 +36,17 @@ spring:
 
   
   #mariaDB 2 local1
-  datasource-local1: 
-    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    jdbc-url: jdbc:log4jdbc:mariadb://teraenergy.iptime.org:13306/nhh?serverTimezone=UTC#no-log-set#spring.datasource-local1.driver-class-name=org.mariadb.jdbc.Driver
+#  datasource-local1: 
+#    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+#    jdbc-url: jdbc:log4jdbc:mariadb://teraenergy.iptime.org:13306/nhh?serverTimezone=UTC#no-log-set#spring.datasource-local1.driver-class-name=org.mariadb.jdbc.Driver
+#    username: nhh
+#    password: nhh2021
+#    maximum-pool-size: 10
+#    minimum-idle: 5
+spring.datasource.hikari.local1:
+    driver-class-name: org.mariadb.jdbc.Driver
+    platform: mariadb
+    jdbc-url: jdbc:mariadb://teraenergy.iptime.org:13306/nhh?serverTimezone=UTC&characterEncoding=UTF-8
     username: nhh
     password: nhh2021
     maximum-pool-size: 10

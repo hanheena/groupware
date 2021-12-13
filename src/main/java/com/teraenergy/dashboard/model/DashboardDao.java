@@ -1,25 +1,28 @@
-package com.teraenergy.dashboard.service;
+package com.teraenergy.dashboard.model;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
-import com.teraenergy.dashboard.mapper.DashboardMapper;
-
-//@Service
 @Repository
-public class DashboardService implements DashboardMapper {
+public class DashboardDao{
 	
-    @Autowired
-    DashboardMapper dashboardmapper;
+	private static final String NAME_SPACE = "com.teraenergy.dashboard.model.DashboardDao";
+	
+	@Autowired
+    @Qualifier(value = "local1SqlSession")
+    private SqlSession local1SqlSession;
 	
 	/* 테스트 select */
-    @Override
     public List<Object> getBoard() throws Exception{
-        return dashboardmapper.getBoard();
+    	
+    	return local1SqlSession.selectList(NAME_SPACE + ".getBoard");
     }
     
     /* 이미지 첨부 예시 소스 */

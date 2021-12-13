@@ -2,17 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper
-	namespace="com.teraenergy.dashboard.mapper.DashboardMapper">
-	
+	namespace="com.teraenergy.dashboard.model.DashboardDao">
+
 	<!-- 테스트 select -->
 	<!-- <select id="getBoard" resultType="camelmap"> -->
 	<select id="getBoard" resultType="java.util.HashMap">
 		SELECT *
-		FROM
-		test_tbl
-		ORDER BY
-		id
-		DESC
+		FROM test_tbl
+		ORDER BY id
 	</select>
 
 	<!-- 이미지 첨부 예시 소스 -->

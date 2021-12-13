@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.teraenergy.common.service.LoginService;
+import com.teraenergy.common.model.LoginDao;
 
 @Controller
 public class LoginController {
 
 	@Autowired
-	private LoginService s;
+	private LoginDao loginDao;
 
 	@GetMapping(value = "/teware")
 	public String home() {
@@ -41,10 +41,11 @@ public class LoginController {
 				model.addAttribute("msg", "아이디 또는 비밀번호를 입력해주세요");
 				return "error/error";
 			}
-			Map<String, String> userInfo = s.login(map);
+			Map<String, String> userInfo = loginDao.login(map);
 			
 			if (userInfo != null) {
-				session.setAttribute("user_id", userInfo.get("login_id"));
+				session.setAttribute("login_id", userInfo.get("login_id"));
+				session.setAttribute("user_id", userInfo.get("user_id"));
 				session.setAttribute("user_name", userInfo.get("kr_name"));
 			} else {
 				model.addAttribute("msg", "아이디 또는 비밀번호가 올바르지 않습니다.");

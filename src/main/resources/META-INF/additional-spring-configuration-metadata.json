@@ -23,5 +23,15 @@
     "name": "spring.datasource-common.driver-class-name",
     "type": "java.lang.String",
     "description": "A description for 'spring.datasource-common.driver-class-name'"
+  },
+  {
+    "name": "datasource-common.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource-common.driver-class-name'"
+  },
+  {
+    "name": "datasource",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource'"
   }
 ]}

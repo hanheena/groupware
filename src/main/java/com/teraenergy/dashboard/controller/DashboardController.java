@@ -22,20 +22,21 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.teraenergy.dashboard.service.DashboardService;
+import com.teraenergy.dashboard.model.DashboardDao;
 
 //@RestController
 @Controller
 public class DashboardController {
 	
 	@Autowired
-	DashboardService s;
+	private DashboardDao dashboardDao;
 
 	@RequestMapping(value = "/teware/dashboard", method = RequestMethod.GET)
 	public ModelAndView dashboard(HttpSession session) {
 		
 		ModelAndView mav = new ModelAndView();
 		
+		mav.addObject("login_id", session.getAttribute("login_id"));
 		mav.addObject("user_id", session.getAttribute("user_id"));
 		mav.addObject("user_name", session.getAttribute("user_name"));
 		

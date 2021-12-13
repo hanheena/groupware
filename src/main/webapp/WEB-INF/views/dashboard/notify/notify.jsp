@@ -12,7 +12,6 @@ pageEncoding="UTF-8"%>
       type="text/css"
       href="/resource/css/dashboard/notify/toast.min.css"
     />
-
     <link
       rel="stylesheet"
       type="text/css"

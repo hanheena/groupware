@@ -10,6 +10,10 @@
 	margin-bottom: 2%;
 }
 
+#dashboard .session_1 .commute .commute_container {
+	display: flex;
+}
+
 #dashboard .session_1 .weather {
 	background-color: #ffffff;
 	height: 18%;

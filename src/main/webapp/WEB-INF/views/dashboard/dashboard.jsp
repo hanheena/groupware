@@ -12,9 +12,7 @@
 
   <link rel="stylesheet" type="text/css" href="/resource/css/dashboard/dashboard.css">
   <link rel="stylesheet" type="text/css" href="/resource/css/dashboard/api/api.css">
-  <link rel="stylesheet" type="text/css" href="/resource/css/dashboard/notify/notify.css">
 
-  <script type="text/javascript" src="/resource/js/dashboard/dashboard.js"></script>
 </head>
 
 <body id="dashboard">
@@ -83,5 +81,6 @@
     <jsp:include page="/WEB-INF/views/common/include/footer.jsp" />
   </div>
 </body>
-
+<script type="text/javascript" src="/resource/js/dashboard/dashboard.js"></script>
+<script type="text/javascript" src="/resource/js/dashboard/api/api.js"></script>
 </html>

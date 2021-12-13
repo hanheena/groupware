@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	console.log("타나요")
+	console.log("=======notify.js=======")
 })
 
 
@@ -55,10 +55,4 @@ $(document).ready(function() {
                 }
             });
         }
-
-        console.log("토스트 콘텐츠 : " + content);
-    });
-
-    $('.toast button.close').click(function () {
-	console.log("먼데");
     });

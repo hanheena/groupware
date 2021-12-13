@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.teraenergy.dashboard.service.ScheduleService;
+import com.teraenergy.dashboard.model.ScheduleDao;
 
 import net.sf.json.JSONArray;
 
@@ -31,13 +31,13 @@ import net.sf.json.JSONArray;
 public class ScheduleController {
 
 	@Autowired
-	ScheduleService s;
+	private ScheduleDao scheduleDao;
 
 	/* 캘린더 일정 정보 가져오기 */
 	@RequestMapping(value = "/teware/calender/ajax_get_calender", method = RequestMethod.GET)
 	public @ResponseBody List<Object> get_calender() throws Exception {
 		
-		List<Object> getData = s.get_calender();
+		List<Object> getData = scheduleDao.get_calender();
 		
 		return getData; 
 	}
@@ -82,7 +82,7 @@ public class ScheduleController {
 		System.out.println("파라미터 확인" + eventData);
 		System.out.println("파라미터 확인 - 맵 " + map);
 		
-		s.insert_schedule(map);
+		scheduleDao.insert_schedule(map);
 		
 		return "redirect:/teware/dashboard";
 	}
@@ -128,7 +128,7 @@ public class ScheduleController {
 		System.out.println("업데이트 파라미터 확인" + eventData);
 		System.out.println("업데이트 파라미터 확인 - 맵 " + map);
 		
-		s.update_schedule(map);
+		scheduleDao.update_schedule(map);
 		
 		return "redirect:/teware/dashboard";
 	}
@@ -143,7 +143,7 @@ public class ScheduleController {
 		
 		System.out.println("아아아아아아아 : " + id_num);
 		
-		s.delete_schedule(id_num);
+		scheduleDao.delete_schedule(id_num);
 
 		return "redirect:/teware/dashboard";
 
