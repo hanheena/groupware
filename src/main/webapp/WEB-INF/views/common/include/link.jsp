@@ -1,16 +1,37 @@
- <!-- =====css===== -->
-  <!-- 부트스트랩 css -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
 
-  <!-- 데이터테이블 라이브러리 css -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
- 
-  <!-- =====js===== -->
-  <!-- 제이쿼리 -->
-  <script type="text/javascript" src="/resource/js/common/jquery-3.6.0.min.js"></script>
-  
-  <!-- 부트스트랩 js -->
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
+<!-- =====css===== -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet">
 
-  <!-- 데이터테이블 라이브러리 js -->
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" media="screen, print"
+	href="/resource/css/common/jquery-ui/jquery-ui.min.css"></link>
+
+<link
+	href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+	rel="stylesheet">
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+
+
+<!-- =====퍼블리셔 커스텀===== -->
+<link rel="stylesheet" href="/resource/css/common/font.css"></link>
+<link rel="stylesheet" href="/resource/css/common/default.css"></link>
+<link rel="stylesheet" href="/resource/css/common/style.css"></link>
+
+
+<!-- =====js===== -->
+<script type="text/javascript"
+	src="/resource/js/common/jquery-3.6.0.min.js"></script>
+
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.ko.min.js"></script>
+
+<script type="text/javascript"
+	src="/resource/js/common/jquery-ui/jquery-ui.min.js"></script>

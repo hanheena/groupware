@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper
+	namespace="com.teraenergy.workReportTest.mapper.WorkReportTestMapper">
+
+	<!-- 게시판 리스츠 -->
+	<select id="workReportList" resultType="java.util.HashMap">
+		SELECT * FROM work_report
+		where del_yn = 'N'
+	</select>
+
+	<!-- 업무보고 작성 -->
+	<insert id="workReportSave" parameterType="map">
+		INSERT INTO
+		work_report (report_type, report_dt, title, content, insert_id,
+		insert_dt)
+		VALUES (#{report_type}, NOW(), #{title}, #{content}, #{insert_id}, NOW())
+	</insert>
+
+	<!-- 업무보고 상세 보기 -->
+	<select id="workReportDetail" resultType="java.util.HashMap">
+		SELECT * FROM
+		work_report WHERE id = #{id} AND del_yn = 'N'
+	</select>
+
+	<!-- 업무보고 수정 -->
+	<update id="workReportChange" parameterType="map">
+		UPDATE WORK_REPORT
+		SET report_type = #{report_type}, report_dt = #{report_dt},
+		title=#{title}, content = #{content},
+		update_id = #{update_id}, update_dt = NOW()
+		WHERE id = #{id}
+	</update>
+	
+	<update id="workReportDelete" parameterType="map">
+		UPDATE
+		work_report
+		SET
+		del_yn = 'Y',
+		delete_id = 'admin',
+		delete_dt = NOW()
+		WHERE
+		id = #{id}
+	</update>
+</mapper>

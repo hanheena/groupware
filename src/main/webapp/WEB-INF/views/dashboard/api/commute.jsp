@@ -1,18 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-  <div class="commute_container">
-	<input type="hidden" value="${user_id}" name="login_user_id">
-    <div class="attend_area">
-      <button class="btn btn-primary" id="attend_btn">출근</button>
-      <div class="attend_time"></div>
-    </div>
-    <div class="leave_area">
-      <button class="btn btn-primary" id="leave_btn">퇴근</button>
-      <div class="leave_time"></div>
-    </div>
 
-    <div class="commute_notify"></div>
-  </div>
+<div class="work-onoff w-100 d-flex flex-wrap justify-content-between">
+	<input type="hidden" value="${user_id}" name="login_user_id">
+	
+	<button class="workon checked attend_btn">
+		출근<span class="time attend_time"></span>
+	</button>
+	<button class="workoff leave_btn">
+		퇴근<span class="time leave_time"></span>
+	</button>
+	<!-- 시간에 따라 변경됩니다 -->
+	<span class="message workoff"><i></i>퇴근 시간입니다!</span> <span
+		class="message workon"><i></i>출근 시간입니다!</span> <span
+		class="message working"><i></i>좋은 하루 되세요!</span>
+</div>
+
+<script type="text/javascript" src="/resource/js/dashboard/api/commute.js"></script>
 </html>

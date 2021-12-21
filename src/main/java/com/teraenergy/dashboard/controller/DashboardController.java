@@ -22,14 +22,14 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.teraenergy.dashboard.model.DashboardDao;
+import com.teraenergy.dashboard.service.DashboardService;
 
 //@RestController
 @Controller
 public class DashboardController {
 	
 	@Autowired
-	private DashboardDao dashboardDao;
+	private DashboardService dashboardService;
 
 	@RequestMapping(value = "/teware/dashboard", method = RequestMethod.GET)
 	public ModelAndView dashboard(HttpSession session) {

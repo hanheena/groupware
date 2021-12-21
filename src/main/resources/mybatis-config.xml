@@ -3,11 +3,12 @@
 
 <configuration>
 	<settings>
-		<setting name="mapUnderscoreToCamelCase" value="true"/>
-		<setting name="callSettersOnNulls" value="true"/>
-		<setting name="jdbcTypeForNull" value="NULL"/>
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+		<setting name="callSettersOnNulls" value="true" />
+		<setting name="jdbcTypeForNull" value="NULL" />
 	</settings>
 	<typeAliases>
-		<typeAlias alias="camelmap" type="com.teraenergy.common.utils.LowerHashMap"/>
+		<typeAlias alias="camelmap"
+			type="com.teraenergy.common.utils.LowerHashMap" />
 	</typeAliases>
 </configuration>

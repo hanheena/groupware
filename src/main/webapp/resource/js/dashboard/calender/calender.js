@@ -1,6 +1,7 @@
 var draggedEventIsAllDay;
 var activeInactiveWeekends = true;
 
+var targetModal = $('#targetModal'); // 대상자 선택 모달
 var calendar = $('#calendar').fullCalendar({
 
 	/** ******************
@@ -14,32 +15,33 @@ var calendar = $('#calendar').fullCalendar({
 	displayEventEnd: true,
 	firstDay: 0, //월요일이 먼저 오게 하려면 1
 	weekNumbers: false,
-	selectable: true,
+	selectable: true, // '일정등록' 버튼이 따로 있으므로 false 설정함
 	weekNumberCalculation: "ISO",
 	eventLimit: true,
 	views: {
 		month: { eventLimit: 12 } // 한 날짜에 최대 이벤트 12개, 나머지는 + 처리됨
 	},
 	eventLimitClick: 'week', //popover
-	navLinks: true,
+	navLinks: true, // 날짜를 선택하면 Day 캘린더나 Week 캘린더로 링크
 	defaultDate: moment('2021-12'), //실제 사용시 현재 날짜로 수정
 	timeFormat: 'HH:mm',
 	defaultTimedEventDuration: '01:00:00',
-	editable: true,
+	editable: true, // 수정 가능
 	minTime: '00:00:00',
 	maxTime: '24:00:00',
 	slotLabelFormat: 'HH:mm',
 	weekends: true,
-	nowIndicator: true,
+	dayMaxEvents: true, // 이벤트가 오버되면 높이 제한 ('+ more'로 표현)
+	nowIndicator: true, // 현재 시간 마크
 	dayPopoverFormat: 'MM/DD dddd',
 	longPressDelay: 0,
 	eventLongPressDelay: 0,
 	selectLongPressDelay: 0,
-	height: 700,
+	height: 620,
 	header: {
-		left: 'none',
-		center: 'prev, title, next',
-		right: 'none'
+		left: 'today, viewWeekends, prev, next',
+		center: 'title',
+		right: 'month, agendaWeek, agendaDay, listWeek'
 	},
 	views: {
 		month: {
@@ -202,6 +204,7 @@ var calendar = $('#calendar').fullCalendar({
 					left: e.pageX - 250,
 					top: e.pageY - 80
 				});
+
 			return false;
 		});
 
@@ -224,23 +227,24 @@ var calendar = $('#calendar').fullCalendar({
 			startDate = moment(startDate).format('YYYY-MM-DD HH:mm');
 			endDate = moment(endDate).format('YYYY-MM-DD HH:mm');
 		}
-		
+
 
 		//날짜 클릭시 카테고리 선택메뉴
 		var $contextMenu = $("#contextMenu");
 		$contextMenu.on("click", "a", function(e) {
 			e.preventDefault();
-
+			var startDateHour = moment(startDate).format('HH');
+			var endDateHour = moment(startDate).add(1, 'hours').format('HH');
 			//닫기 버튼이 아닐때
 			if ($(this).data().role !== 'close') {
-				newEvent(startDate, endDate, $(this).html());
+				newEvent(startDate, endDate, startDateHour, endDateHour, $(this).html());
 			}
 
 			$contextMenu.removeClass("contextOpened");
 			$contextMenu.hide();
 		});
-	
-	
+
+
 		$('body').on('click', function() {
 			$contextMenu.removeClass("contextOpened");
 			$contextMenu.hide();
@@ -249,6 +253,9 @@ var calendar = $('#calendar').fullCalendar({
 	},
 	//이벤트 클릭시 수정이벤트
 	eventClick: function(event, jsEvent, view) {
+
+		editEvent.empty;
+
 		editEvent(event);
 	}
 
@@ -257,12 +264,27 @@ var calendar = $('#calendar').fullCalendar({
 function getDisplayEventDate(event) {
 
 	var displayEventDate;
+	/*
+	
+	*/
+	var aa = event.start_time
+	var bb = event.end_time
+	console.log(typeof event.all_day)
+	if (event.all_day == "1") {
+		var startTimeEventInfo = moment(aa, "HH:mm")
+		var endTimeEventInfo = moment(bb, "HH:mm")
+		/*
+				var startTimeEventInfo = moment(event.start).format('HH:mm');
+				var endTimeEventInfo = moment(event.end).format('HH:mm');
+		
+		*/
+		displayEventDate = event.start_time + " - " + event.end_time;
+		//	displayEventDate = startTimeEventInfo + " - " + endTimeEventInfo;
 
-	if (event.allDay == false) {
-		var startTimeEventInfo = moment(event.start).format('HH:mm');
-		var endTimeEventInfo = moment(event.end).format('HH:mm');
-		displayEventDate = startTimeEventInfo + " - " + endTimeEventInfo;
-	} else {
+	} else if (event.all_day == "2") {
+		displayEventDate = "시간미사용"
+	}
+	else {
 		displayEventDate = "하루종일";
 	}
 
@@ -306,7 +328,6 @@ function filtering(event) {
 			show_type = true;
 		} else {
 			show_type = type.indexOf(event.event_type) >= 0;
-
 		}
 	}
 
@@ -323,7 +344,7 @@ function calDateWhenResize(event) {
 		endDate: ''
 	};
 
-	if (event.all_day) {
+	if (event.all_day == "3") {
 		newDates.startDate = moment(event.start._d).format('YYYY-MM-DD');
 		newDates.endDate = moment(event.end._d).subtract(1, 'days').format('YYYY-MM-DD');
 	} else {
@@ -348,7 +369,6 @@ function calDateWhenDragnDrop(event) {
 
 	//하루짜리 all day
 	if (event.all_day && event.end === event.start) {
-		console.log('1111')
 		newDates.startDate = moment(event.start._d).format('YYYY-MM-DD');
 		newDates.endDate = newDates.startDate;
 	}
