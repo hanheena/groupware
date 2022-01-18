@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T07:22:10.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="pG6Je7-AaMAPTtJeyQRq" version="16.2.7" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-01-18T08:54:06.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="EhKQYriKTix-aevzeWkT" version="16.2.7" type="github" pages="8">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="전체">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -12,57 +12,57 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="INT code_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="40" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-0" value="INT 공통 코드 유형 (FK : common_code_type)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-0" value="INT 공통 코드 유형 (FK : common_code_type)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="66" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-3" value="VARCHAR 공통 코드 값" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-3" value="VARCHAR 공통 코드 값" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="92" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-2" value="VARCHAR 공통 코드 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-2" value="VARCHAR 공통 코드 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="118" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-11" value="comm_attach_file&#xa; (첨부 파일 공통 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1290" y="816" width="190" height="352" as="geometry">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-11" value="comm_attach_file&#xa; (첨부 파일 공통 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1310" y="650" width="190" height="352" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-12" value="INT file_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-12" value="INT file_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="40" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-13" value="VARCHAR 저장 파일 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-13" value="VARCHAR 저장 파일 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="66" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-14" value="VARCHAR 실제 파일 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-14" value="VARCHAR 실제 파일 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="92" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-24" value="VARCHAR 파일 경로" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-24" value="VARCHAR 파일 경로" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="118" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-15" value="VARCHAR 파일 크기" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-15" value="VARCHAR 파일 크기" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="144" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-29" value="VARCHAR 확장명 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-29" value="VARCHAR 확장명 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="170" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-28" value="INT 참조 유저 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-28" value="INT 참조 유저 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="196" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-27" value="VARCHAR 참조 유저 권한" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-27" value="VARCHAR 참조 유저 권한" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="222" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-30" value="VARCHAR 파일 카테고리 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-30" value="VARCHAR 파일 카테고리 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="248" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-31" value="VARCHAR 삭제 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-31" value="VARCHAR 삭제 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="274" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-26" value="INT 등록자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-26" value="INT 등록자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="300" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-25" value="DATETIME 등록일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-11">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-25" value="DATETIME 등록일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-11" vertex="1">
           <mxGeometry y="326" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=ERzeroToMany;html=1;rounded=0;fontSize=11;exitX=-0.014;exitY=0.203;exitDx=0;exitDy=0;dashed=1;endFill=0;startArrow=ERone;startFill=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-4" target="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=ERzeroToMany;html=1;rounded=0;fontSize=11;exitX=-0.014;exitY=0.203;exitDx=0;exitDy=0;dashed=1;endFill=0;startArrow=ERone;startFill=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-4" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="720" as="sourcePoint" />
             <mxPoint x="399" y="520" as="targetPoint" />
@@ -71,198 +71,190 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-37" value="user_info&#xa; (유저 정보 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-37" value="user_info&#xa; (유저 정보 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="800" y="390" width="230" height="794" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-38" value="INT user_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-38" value="INT user_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="40" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-39" value="VARCHAR 로그인 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-39" value="VARCHAR 로그인 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="66" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-63" value="VARCHAR 비밀번호" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-63" value="VARCHAR 비밀번호" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="92" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-64" value="VARCHAR 한글 이름" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-64" value="VARCHAR 한글 이름" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="118" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-40" value="VARCHAR 영문 이름" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-40" value="VARCHAR 영문 이름" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="144" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-41" value="DATE 생년월일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-41" value="DATE 생년월일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="170" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-42" value="VARCHAR 연락처" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-42" value="VARCHAR 연락처" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="196" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-50" value="VARCHAR 우편 번호" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-50" value="VARCHAR 우편 번호" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="222" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-51" value="VARCHAR 일반 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-51" value="VARCHAR 일반 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="248" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-52" value="VARCHAR 상세 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-52" value="VARCHAR 상세 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="274" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-53" value="VARCHAR 개인 이메일 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-53" value="VARCHAR 개인 이메일 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="300" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-43" value="VARCHAR 소속 부서 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-43" value="VARCHAR 소속 부서 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="326" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-54" value="VARCHAR 직급 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-54" value="VARCHAR 직급 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="352" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-55" value="VARCHAR 직책 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-55" value="VARCHAR 직책 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="378" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-56" value="VARCHAR 근로 형태 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-56" value="VARCHAR 근로 형태 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="404" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-57" value="VARCHAR 재직 상태 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-57" value="VARCHAR 재직 상태 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="430" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-65" value="VARCHAR 등급, 권한 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-65" value="VARCHAR 등급, 권한 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="456" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-66" value="VARCHAR 출퇴근 관리 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-66" value="VARCHAR 출퇴근 관리 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="482" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-67" value="VARCHAR 삭제 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-67" value="VARCHAR 삭제 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="508" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-69" value="VARCHAR 서류 요청 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-69" value="VARCHAR 서류 요청 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="534" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-68" value="VARCHAR 스킬 요청 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-68" value="VARCHAR 스킬 요청 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="560" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-44" value="DATE 입사 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-44" value="DATE 입사 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="586" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-70" value="DATE 퇴사 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-70" value="DATE 퇴사 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="612" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-71" value="INT 유저 등록자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-71" value="INT 유저 등록자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="638" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-72" value="DATE 유저 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-72" value="DATE 유저 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="664" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-59" value="INT 유저 수정자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-59" value="INT 유저 수정자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="690" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-60" value="DATE 유저 수정 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-60" value="DATE 유저 수정 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="716" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-61" value="INT 유저 삭제자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-61" value="INT 유저 삭제자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="742" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-45" value="DATE 유저 삭제 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-45" value="DATE 유저 삭제 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-37" vertex="1">
           <mxGeometry y="768" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-87" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.514;entryY=1.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qLHimwJc-G1kbC_O5Eg_-37" source="qLHimwJc-G1kbC_O5Eg_-64" target="qLHimwJc-G1kbC_O5Eg_-45">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="165" y="100" as="sourcePoint" />
-            <mxPoint x="100" y="810" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="290" y="131" />
-              <mxPoint x="290" y="840" />
-              <mxPoint x="113" y="840" />
-              <mxPoint x="113" y="799" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-76" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-38" target="qLHimwJc-G1kbC_O5Eg_-28">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-76" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-38" target="qLHimwJc-G1kbC_O5Eg_-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1020" y="580" as="sourcePoint" />
             <mxPoint x="1070" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="560" />
+              <mxPoint x="1170" y="560" />
+              <mxPoint x="1170" y="859" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-77" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=1.012;exitY=0.132;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.074;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="qLHimwJc-G1kbC_O5Eg_-37">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-77" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.074;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="qLHimwJc-G1kbC_O5Eg_-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="580" as="sourcePoint" />
             <mxPoint x="880" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="735" y="489" />
-              <mxPoint x="735" y="370" />
+              <mxPoint x="530" y="370" />
               <mxPoint x="817" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-88" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-88" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
           <mxGeometry x="180" y="380" width="210" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-4" value="common_code_type&#xa; (공통 코드 유형 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;swimlaneFillColor=none;container=0;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-88">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-4" value="common_code_type&#xa; (공통 코드 유형 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;swimlaneFillColor=none;container=0;" parent="qLHimwJc-G1kbC_O5Eg_-88" vertex="1">
           <mxGeometry width="210" height="118" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-5" value="INT code_type_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;container=0;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-88">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-5" value="INT code_type_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;container=0;" parent="qLHimwJc-G1kbC_O5Eg_-88" vertex="1">
           <mxGeometry y="40" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-6" value="VARCHAR 공통 코드 유형 값" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;container=0;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-88">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-6" value="VARCHAR 공통 코드 유형 값" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;container=0;" parent="qLHimwJc-G1kbC_O5Eg_-88" vertex="1">
           <mxGeometry y="66" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-7" value="VARCHAR 공통 코드 유형 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;container=0;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-88">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-7" value="VARCHAR 공통 코드 유형 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;container=0;" parent="qLHimwJc-G1kbC_O5Eg_-88" vertex="1">
           <mxGeometry y="92" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-89" value="commute_tbl&#xa; (근태 정보 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-89" value="commute_tbl&#xa; (근태 정보 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="880" width="200" height="456" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-90" value="INT commute_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-90" value="INT commute_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="40" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-91" value="DATE 출근 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-91" value="DATE 출근 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="66" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-94" value="DATE 퇴근 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-94" value="DATE 퇴근 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="92" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-97" value="INT 출퇴근 유저 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-97" value="INT 출퇴근 유저 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="118" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-100" value="TINYINT 출퇴근 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-100" value="TINYINT 출퇴근 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="144" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-99" value="DATE 출퇴근 기준 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-99" value="DATE 출퇴근 기준 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="170" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-98" value="VARCHAR 지각 사유" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-98" value="VARCHAR 지각 사유" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="196" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-96" value="DATETIME 지각 사유 작성 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-96" value="DATETIME 지각 사유 작성 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="222" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-95" value="VARCHAR 추가 지각 사유" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-95" value="VARCHAR 추가 지각 사유" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="248" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-101" value="DATETIME 추가 지각 사유 작성 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-101" value="DATETIME 추가 지각 사유 작성 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="274" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-92" value="VARCHAR 지각 사유 답변" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-92" value="VARCHAR 지각 사유 답변" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="300" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-112" value="DATETIME 지각 사유 답변 작성 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-112" value="DATETIME 지각 사유 답변 작성 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="326" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-105" value="VARCHAR 출근 IP" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-105" value="VARCHAR 출근 IP" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="352" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-104" value="VARCHAR 퇴근 IP" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-104" value="VARCHAR 퇴근 IP" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="378" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-111" value="TINYINT 지각 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-111" value="TINYINT 지각 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="404" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-113" value="TINYINT 지각 사유서 작성 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-89">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-113" value="TINYINT 지각 사유서 작성 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-89" vertex="1">
           <mxGeometry y="430" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-114" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-38">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-114" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="828" y="360" as="sourcePoint" />
             <mxPoint x="700" y="880" as="targetPoint" />
@@ -273,108 +265,108 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-115" value="commute_user_tbl&#xa; (근태 정보 관리자 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="830" width="220" height="300" as="geometry">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-115" value="commute_user_tbl&#xa; (근태 정보 관리자 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="240" y="1036" width="220" height="300" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-116" value="INT commute_user_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-116" value="INT commute_user_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="40" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-117" value="INT 근태 관리 유저 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-117" value="INT 근태 관리 유저 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="66" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-118" value="INT 근태 유형 코드" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-118" value="INT 근태 유형 코드" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="92" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-119" value="TIME 출근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-119" value="TIME 출근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="118" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-120" value="TIME 퇴근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-120" value="TIME 퇴근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="144" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-121" value="DATETIME 출퇴근 기준 수정일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-121" value="DATETIME 출퇴근 기준 수정일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="170" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-122" value="INT 출퇴근 기준 수정자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-122" value="INT 출퇴근 기준 수정자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="196" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-123" value="DATETIME 변경된 출퇴근 기준 적용일자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-123" value="DATETIME 변경된 출퇴근 기준 적용일자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="222" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-124" value="TIME 변경된 출근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-124" value="TIME 변경된 출근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="248" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-125" value="TIME 변경된 퇴근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-125" value="TIME 변경된 퇴근 기준 시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-115" vertex="1">
           <mxGeometry y="274" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-133" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-37" target="qLHimwJc-G1kbC_O5Eg_-115">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-133" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-37" target="qLHimwJc-G1kbC_O5Eg_-115" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="830" y="380" as="sourcePoint" />
             <mxPoint x="390" y="830" as="targetPoint" />
             <Array as="points">
               <mxPoint x="780" y="414" />
               <mxPoint x="780" y="750" />
-              <mxPoint x="370" y="750" />
+              <mxPoint x="405" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-134" value="project_manage_info&#xa; (프로젝트 정보 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-134" value="project_manage_info&#xa; (프로젝트 정보 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="480" y="40" width="240" height="222" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-135" value="INT project_info_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-134">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-135" value="INT project_info_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-134" vertex="1">
           <mxGeometry y="40" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-136" value="VARCHAR 프로젝트 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-134">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-136" value="VARCHAR 프로젝트 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-134" vertex="1">
           <mxGeometry y="66" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-137" value="VARCHAR 발주처 코드 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-134">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-137" value="VARCHAR 발주처 코드 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-134" vertex="1">
           <mxGeometry y="92" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-139" value="DATE 프로젝트 시작 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-134">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-139" value="DATE 프로젝트 시작 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-134" vertex="1">
           <mxGeometry y="118" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-140" value="DATE 프로젝트 종료 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-134">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-140" value="DATE 프로젝트 종료 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-134" vertex="1">
           <mxGeometry y="144" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-141" value="DATETIME 프로젝트 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-134">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-141" value="DATETIME 프로젝트 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-134" vertex="1">
           <mxGeometry y="170" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-142" value="DATETIME 프로젝트 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-134">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-142" value="DATETIME 프로젝트 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-134" vertex="1">
           <mxGeometry y="196" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-145" value="project_manage_manpower&#xa; (프로젝트 인력 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-145" value="project_manage_manpower&#xa; (프로젝트 인력 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="90" y="40" width="270" height="248" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-146" value="INT project_manpower_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-146" value="INT project_manpower_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="40" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-147" value="INT 프로젝트 고유 ID (UK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-147" value="INT 프로젝트 고유 ID (UK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="66" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-148" value="VARCHAR 발주처 코드 (FK : project_manage_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;fontStyle=0" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-148" value="VARCHAR 발주처 코드 (FK : project_manage_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;fontStyle=0" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="92" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-149" value="INT 프로젝트 투입 유저 ID (FK : user_info, UK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-149" value="INT 프로젝트 투입 유저 ID (FK : user_info, UK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="118" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-150" value="DATE 프로젝트 투입 시작 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-150" value="DATE 프로젝트 투입 시작 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="144" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-151" value="DATE 프로젝트 투입 종료 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-151" value="DATE 프로젝트 투입 종료 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="170" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-152" value="DATETIME 프로젝트 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-152" value="DATETIME 프로젝트 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="196" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-153" value="DATETIME 프로젝트 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-153" value="DATETIME 프로젝트 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-145" vertex="1">
           <mxGeometry y="222" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-154" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=0.507;entryY=1.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="qLHimwJc-G1kbC_O5Eg_-153">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-154" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=0.507;entryY=1.154;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="qLHimwJc-G1kbC_O5Eg_-153" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="850" y="389" as="sourcePoint" />
             <mxPoint x="662.12" y="288" as="targetPoint" />
@@ -384,7 +376,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-155" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-134" target="qLHimwJc-G1kbC_O5Eg_-145">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-155" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-134" target="qLHimwJc-G1kbC_O5Eg_-145" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="30" as="sourcePoint" />
             <mxPoint x="380.0000000000001" y="50.003999999999905" as="targetPoint" />
@@ -394,115 +386,511 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-157" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.304;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-37" target="qLHimwJc-G1kbC_O5Eg_-141">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-157" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.2;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-37" target="qLHimwJc-G1kbC_O5Eg_-141" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="250" as="sourcePoint" />
             <mxPoint x="740" y="70" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="870" y="223" />
+              <mxPoint x="850" y="385" />
+              <mxPoint x="850" y="223" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-159" value="skill_inventory_basic&#xa; (스킬 인벤토리 기본 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1070" y="60" width="190" height="352" as="geometry">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-159" value="skill_inventory_basic&#xa; (스킬 인벤토리 기본 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1080" y="80" width="190" height="352" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-160" value="INT skill_inventory_basic_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-160" value="INT skill_inventory_basic_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="40" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-161" value="INT 스킬 관리 유저 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-161" value="INT 스킬 관리 유저 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="66" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-162" value="VARCHAR 최종 학력" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-162" value="VARCHAR 최종 학력" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="92" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-163" value="VARCHAR 최종 졸업 학교" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-163" value="VARCHAR 최종 졸업 학교" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="118" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-164" value="VARCHAR 졸업 년도" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-164" value="VARCHAR 졸업 년도" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="144" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-165" value="VARCHAR 전공" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-165" value="VARCHAR 전공" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="170" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-167" value="VARCHAR 대표 자격증" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-167" value="VARCHAR 대표 자격증" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="196" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-173" value="VARCHAR 자격증 취득 연도" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-173" value="VARCHAR 자격증 취득 연도" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="222" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-174" value="VARCHAR 기타 사항" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-174" value="VARCHAR 기타 사항" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="248" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-172" value="VARCHAR 기술 등급" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-172" value="VARCHAR 기술 등급" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="274" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-168" value="DATETIME 스킬 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-168" value="DATETIME 스킬 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="300" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-169" value="DATETIME 스킬 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-159">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-169" value="DATETIME 스킬 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-159" vertex="1">
           <mxGeometry y="326" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-175" value="skill_inventory_career_skill&#xa; (스킬 인벤토리 경력 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1300" y="40" width="270" height="524" as="geometry">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-175" value="skill_inventory_career_skill&#xa; (스킬 인벤토리 경력 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1350" y="50" width="270" height="524" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-176" value="INT skill_inventory_career_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-176" value="INT skill_inventory_career_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="40" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-177" value="INT 스킬 경력 관리 유저 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-177" value="INT 스킬 경력 관리 유저 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="66" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-178" value="VARCHAR 입사 이전 참여 프로젝트 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-178" value="VARCHAR 입사 이전 참여 프로젝트 명" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="92" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-179" value="ITN 입사 이후 참여 프로젝트 코드&#xa;(FK : project_manage_projectinfo)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-179" value="ITN 입사 이후 참여 프로젝트 코드&#xa;(FK : project_manage_projectinfo)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="118" width="270" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-180" value="VARCHAR 프로젝트 투입 시작 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-180" value="VARCHAR 프로젝트 투입 시작 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="160" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-181" value="VARCHAR 프로젝트 투입 종료 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-181" value="VARCHAR 프로젝트 투입 종료 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="186" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-182" value="VARCHAR 고객사 (발주처)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-182" value="VARCHAR 고객사 (발주처)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="212" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-183" value="VARCHAR 담당 업무" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-183" value="VARCHAR 담당 업무" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="238" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-184" value="VARCHAR 소속 회사" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-184" value="VARCHAR 소속 회사" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="264" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-185" value="VARCHAR 직위" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-185" value="VARCHAR 직위" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="290" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-195" value="VARCHAR 개발 언어" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-195" value="VARCHAR 개발 언어" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="316" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-194" value="VARCHAR 관계형 DB" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-194" value="VARCHAR 관계형 DB" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="342" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-193" value="VARCHAR 프레임워크" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-193" value="VARCHAR 프레임워크" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="368" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-198" value="VARCHAR 내부 기술" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-198" value="VARCHAR 내부 기술" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="394" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-197" value="VARCHAR 운영체제" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-197" value="VARCHAR 운영체제" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="420" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-196" value="VARCHAR 개발 툴" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-196" value="VARCHAR 개발 툴" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="446" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-186" value="DATETIME 스킬 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-186" value="DATETIME 스킬 신규 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="472" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qLHimwJc-G1kbC_O5Eg_-187" value="DATETIME 스킬 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="qLHimwJc-G1kbC_O5Eg_-175">
+        <mxCell id="qLHimwJc-G1kbC_O5Eg_-187" value="DATETIME 스킬 변경 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" parent="qLHimwJc-G1kbC_O5Eg_-175" vertex="1">
           <mxGeometry y="498" width="270" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-0" value="elect_approv_purchase &#xa;(전자 결재 구매 공통 문서 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1280" y="1060" width="280" height="326" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-1" value="INT elect_approv_purchase_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-2" value="INT 전자 결재 ID (FK : elect_approv)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-3" value="INT 첨부 파일 ID (FK : comm_attach_file)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-4" value="INT 결재자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="118" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-5" value="VARCHAR 문서 제목" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-6" value="VARCHAR 문서 내용" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="170" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-7" value="VARCHAR 구매 품목" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="196" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-8" value="VARCHAR 규격" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="222" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-9" value="VARCHAR 수량" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="248" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-10" value="VARCHAR 단가" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="274" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-11" value="VARCHAR 합계 금액" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry y="300" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-13" value="elect_approv &#xa;(전자 결재 마스터 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1350" width="280" height="222" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-14" value="INT elect_approv_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-13">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-15" value="INT 전자 결재 카테고리 ID (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-13">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-16" value="INT 전자 결재 기안자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-13">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-17" value="VARCHAR 참조 라인" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-13">
+          <mxGeometry y="118" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-18" value="VARCHAR 결재 라인" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-13">
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-19" value="DATETIME 전자 결재 기안 일자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-13">
+          <mxGeometry y="170" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-20" value="VARCHAR 결재자 코멘트" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-13">
+          <mxGeometry y="196" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-25" value="elect_approv_ref &#xa;(전자 결재 참조자 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="1650" width="280" height="118" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-26" value="INT elect_approv_ref_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-25">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-27" value="INT 전자 결재 ID (FK : elect_approv)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-25">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-28" value="INT 전자 결재 참조자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-25">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-33" value="schedule_tbl&#xa;(대시보드 일정 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="1620" width="280" height="300" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-34" value="INT schedule_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-35" value="VARCHAR 일정 제목" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-36" value="VARCHAR 일정 내용" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-37" value="VARCHAR 일정 등록자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="118" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-38" value="VARCHAR 일정 대상자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-39" value="VARCHAR 일정 대상자 이름 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="170" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-40" value="VARCHAR 일정 시간 구분 (종일, 시간 미지정 등)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="196" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-41" value="VARCHAR 공통 일정 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="222" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-42" value="DATETIME 일정 시작 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="248" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-43" value="DATETIME 일정 종료 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-33">
+          <mxGeometry y="274" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-45" value="work_report &#xa;(업무 보고 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1510" width="280" height="352" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-46" value="INT work_report_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-47" value="VARCHAR 업무 보고 구분 (주간, 일일)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-48" value="DATE 보고 일자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-49" value="VARCHAR 업무 보고 주제" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="118" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-50" value="TEXT 업무 보고 내용" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-51" value="INT 업무 보고 등록자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="170" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-52" value="DATE 업무 보고 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="196" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-53" value="INT 업무 보고 수정자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="222" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-54" value="DATE 업무 보고 수정 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="248" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-55" value="INT 업무 보고 삭제자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="274" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-58" value="DATE 업무 보고 삭제 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="300" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-59" value="VARCHAR 업무 보고 삭제 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-45">
+          <mxGeometry y="326" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-61" value="elect_approv_line &#xa;(전자 결재 라인 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1250" y="1460" width="280" height="196" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-62" value="INT elect_approv_line_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-61">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-63" value="INT 전자 결재 ID (FK : elect_approv)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-61">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-64" value="INT 전자 결재자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-61">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-65" value="INT 결재 라인 순서" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-61">
+          <mxGeometry y="118" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-66" value="VARCHAR 이전 결재자 승인 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-61">
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-67" value="DATETIME 승인/반려 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-61">
+          <mxGeometry y="170" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-70" value="elect_approv_vacation &#xa;(전자 결재 휴가 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="1810" width="280" height="300" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-71" value="INT elect_approv_vacation_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-72" value="INT 전자 결재 ID (FK : elect_approv)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-73" value="INT 휴가 결재자 ID (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-74" value="VARCHAR 휴가 내용" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="118" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-75" value="VARCHAR 휴가 일자 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-76" value="VARCHAR 휴가 유형 구분" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="170" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-77" value="VARCHAR 휴가 시간 구분 (종일, 반차 등)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="196" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-78" value="VARCHAR 휴가 시작일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="222" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-79" value="VARCHAR 휴가 종료일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="248" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-80" value="VARCHAR 근태 일수" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="zGjNU62J_1CgbBftY1pJ-70">
+          <mxGeometry y="274" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-92" value="VARCHAR 휴가 사용 일수" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="2110" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-93" value="VARCHAR 휴가 취소 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="2136" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-94" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.011;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-37" target="qLHimwJc-G1kbC_O5Eg_-159">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1011" y="302.2360000000001" as="sourcePoint" />
+            <mxPoint x="1068" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="973" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-95" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-134" target="qLHimwJc-G1kbC_O5Eg_-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1267.5" y="50" as="sourcePoint" />
+            <mxPoint x="1020" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="20" />
+              <mxPoint x="1418" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-96" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=0.5;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qLHimwJc-G1kbC_O5Eg_-25" target="zGjNU62J_1CgbBftY1pJ-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="453" as="sourcePoint" />
+            <mxPoint x="1320" y="869" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1405" y="1040" />
+              <mxPoint x="1420" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qywPwZGzTxuFLK1JIBS_" name="대시보드">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="R1y1zJZ6M2pCikoKiG93-0" />
+        <mxCell id="R1y1zJZ6M2pCikoKiG93-1" parent="R1y1zJZ6M2pCikoKiG93-0" />
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-0" value="user_info&#xa; (유저 정보 관리 테이블)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="R1y1zJZ6M2pCikoKiG93-1">
+          <mxGeometry x="800" y="390" width="230" height="794" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-1" value="INT user_id (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="40" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-2" value="VARCHAR 로그인 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="66" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-3" value="VARCHAR 비밀번호" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="92" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-4" value="VARCHAR 한글 이름" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="118" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-5" value="VARCHAR 영문 이름" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="144" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-6" value="DATE 생년월일" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="170" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-7" value="VARCHAR 연락처" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="196" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-8" value="VARCHAR 우편 번호" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="222" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-9" value="VARCHAR 일반 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="248" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-10" value="VARCHAR 상세 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="274" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-11" value="VARCHAR 개인 이메일 주소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="300" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-12" value="VARCHAR 소속 부서 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="326" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-13" value="VARCHAR 직급 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="352" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-14" value="VARCHAR 직책 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="378" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-15" value="VARCHAR 근로 형태 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="404" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-16" value="VARCHAR 재직 상태 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="430" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-17" value="VARCHAR 등급, 권한 (FK : common_code)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="456" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-18" value="VARCHAR 출퇴근 관리 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="482" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-19" value="VARCHAR 삭제 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="508" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-20" value="VARCHAR 서류 요청 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="534" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-21" value="VARCHAR 스킬 요청 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="560" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-22" value="DATE 입사 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="586" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-23" value="DATE 퇴사 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="612" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-24" value="INT 유저 등록자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="638" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-25" value="DATE 유저 등록 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="664" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-26" value="INT 유저 수정자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="690" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-27" value="DATE 유저 수정 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="716" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-28" value="INT 유저 삭제자 (FK : user_info)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="742" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hVkEsOhGhbfu2j9oRWEz-29" value="DATE 유저 삭제 날짜" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;fontSize=11;" vertex="1" parent="hVkEsOhGhbfu2j9oRWEz-0">
+          <mxGeometry y="768" width="230" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2L1Qe9XJXWCeoSdujIrh" name="프로젝트">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="bJZan_gly5NIVELc_k15-0" />
+        <mxCell id="bJZan_gly5NIVELc_k15-1" parent="bJZan_gly5NIVELc_k15-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LER05foGZ6eqZwRZUsE7" name="업무">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="XWerdBu_wNTTpUlLLhUb-0" />
+        <mxCell id="XWerdBu_wNTTpUlLLhUb-1" parent="XWerdBu_wNTTpUlLLhUb-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ms76kZhPg1Rg-PaaPnQg" name="결재">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="lWPt88ZznbKetLsjx9zJ-0" />
+        <mxCell id="lWPt88ZznbKetLsjx9zJ-1" parent="lWPt88ZznbKetLsjx9zJ-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qq-ZstO7LubVyp5QRUE6" name="휴가">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="dvnhBYecvu0knQ4L9jZE-0" />
+        <mxCell id="dvnhBYecvu0knQ4L9jZE-1" parent="dvnhBYecvu0knQ4L9jZE-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="h2QJ72sTZwOJdqmS85uZ" name="근태">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="StathX0HG_YcBxCoAX8z-0" />
+        <mxCell id="StathX0HG_YcBxCoAX8z-1" parent="StathX0HG_YcBxCoAX8z-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2bgOzSOmgvfECVKnEKqy" name="인사카드">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="XAEORs8EVvdFNwAqOJfp-0" />
+        <mxCell id="XAEORs8EVvdFNwAqOJfp-1" parent="XAEORs8EVvdFNwAqOJfp-0" />
       </root>
     </mxGraphModel>
   </diagram>
