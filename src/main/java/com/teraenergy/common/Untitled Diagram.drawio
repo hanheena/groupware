@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T04:34:36.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="z7douvJNyx2XUMkM60dB" version="16.2.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-01-19T04:37:25.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="JPIQeX43ACFDUfPuP1tI" version="16.2.7" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="전체">
     <mxGraphModel dx="1778" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -710,7 +710,7 @@
         <mxCell id="zGjNU62J_1CgbBftY1pJ-93" value="VARCHAR 휴가 취소 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1180" y="2136" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zGjNU62J_1CgbBftY1pJ-94" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=none;startFill=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.011;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MbXhu-rKzd84CGuf6sCg-14" target="qLHimwJc-G1kbC_O5Eg_-159" edge="1">
+        <mxCell id="zGjNU62J_1CgbBftY1pJ-94" value="" style="endArrow=ERone;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=none;startFill=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.011;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MbXhu-rKzd84CGuf6sCg-14" target="qLHimwJc-G1kbC_O5Eg_-159" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1011" y="302.2360000000001" as="sourcePoint" />
             <mxPoint x="1068" y="90" as="targetPoint" />
@@ -780,7 +780,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2QEqn8dAfCW_SsxbG9DI-4" value="" style="endArrow=ERzeroToMany;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.086;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zGjNU62J_1CgbBftY1pJ-20" target="zGjNU62J_1CgbBftY1pJ-70">
+        <mxCell id="2QEqn8dAfCW_SsxbG9DI-4" value="" style="endArrow=ERone;dashed=1;html=1;rounded=0;fontSize=11;edgeStyle=orthogonalEdgeStyle;startArrow=ERone;startFill=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.086;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zGjNU62J_1CgbBftY1pJ-20" target="zGjNU62J_1CgbBftY1pJ-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1250" y="1719" as="sourcePoint" />
             <mxPoint x="1230" y="1810" as="targetPoint" />
